@@ -30,4 +30,23 @@ let data=
 const myFunction =function(){
     console.log("data")
 }
-console.log(typeof myFunction );
+// console.log(typeof myFunction ); 
+
+
+// **************************************************************************************************************//
+// Stack (primitive) , Heap (non-premitive)
+let my_data="shruti@gmail.com"
+let myAnother_data =  my_data
+myAnother_data="spSINGH"
+console.log(myanother_data)
+console.log(my_data)
+
+
+
+let userOne = {
+    name :"shruti",
+    email : "she@mail.com" 
+}
+let userTwo = userOne;
+userTwo.email="shruti@gmail.com"
+console.log(userOne.email);
